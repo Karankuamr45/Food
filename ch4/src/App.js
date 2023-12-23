@@ -6,19 +6,22 @@ import Footer from './components/Footer';
 import Carousel from './components/Carousel';
 import About from './components/About';
 import Help from './components/Help';
+import Dummy2 from './components/Dummy2'
 
 
 const AppLayout=()=>{
     return (
         <div>
-            {/* <Header/>
-            <Carousel/>
+            <Header/>
+            {/* <Carousel/> */}
             <Body/>
-            <Footer/> */}
+            <Footer/>
+
+            {/* <Dummy2/> this is for filter imp */}
 
             {/* <About/> */}
 
-            <Help/>
+            {/* <Help/> */}
         </div>
     )
 }

@@ -7,23 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Carousel = () => {
 
-    const PrevArrow = ({ onClick }) => (
-        <button
-          className="slick-prev absolute top-1/2 left-4 -translate-y-1/2 bg-gray-800 text-white rounded-full p-2"
-          onClick={onClick}
-        >
-          Prev
-        </button>
-      );
-    
-      const NextArrow = ({ onClick }) => (
-        <button
-          className="slick-next absolute top-1/2 right-4 -translate-y-1/2 bg-gray-800 text-white rounded-full p-2"
-          onClick={onClick}
-        >
-          Next
-        </button>
-      );
+  
 
   const settings = {
     dots: true,
@@ -33,8 +17,7 @@ const Carousel = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    prevArrow: <PrevArrow />,
-    nextArrow: <NextArrow />,
+
   };
 
 

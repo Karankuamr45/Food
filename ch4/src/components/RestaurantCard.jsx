@@ -1,6 +1,4 @@
-// RestaurantCard.js
-
-import React from 'react';
+import { CDN_IMAGE_URL } from '../utils/constant';
 
 const RestaurantCard = ({data}) => {
   const {name,avgRating,costForTwo,cloudinaryImageId}=data?.info
@@ -10,7 +8,7 @@ const RestaurantCard = ({data}) => {
       
       <img
         className="w-[280px] h-48 object-cover"
-        src={'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/' +cloudinaryImageId} 
+        src={CDN_IMAGE_URL +cloudinaryImageId} 
         alt="Restaurant"
       />
 

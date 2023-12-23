@@ -22,7 +22,7 @@ const Header = () => {
             <img src={logo} alt="" />
           </div>
 
-          <div className='mx-5'>
+          <div className='mx-5 lg:mx-2'>
             <SearchBar/>
           </div>
 
@@ -36,10 +36,10 @@ const Header = () => {
           <nav className="hidden lg:flex space-x-4 lg:space-x-14">
             <a href="#" className="text-white text-xl lg:text-3xl ">Home</a>
             <a href="#" className="text-white text-xl lg:text-3xl ">About</a>
-            <a href="#" className="text-white text-xl lg:text-3xl ">Services</a>
-            <a href="#" className="text-white text-xl lg:text-3xl ">Contact</a>
+            <a href="#" className="text-white text-xl lg:text-3xl ">Help</a>
+            <a href="#" className="text-white text-xl lg:text-3xl ">Cart</a>
           </nav>
-        </div>*
+        </div>
       </header>
 
       {/* Responsive Navigation Links */}
